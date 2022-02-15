@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="centercontain">
+        <div class="title">
+            <h1>Network</h1>
+        </div>
+        <h1 class="feed">Your Feed</h1>
+        <div class="body">
+            <div class="left">
+                    <img class ="prf" src="profile.jpg" height="130" width="130" alt="profile">
+                    <div><a href="#">Add an avatar</a></div>
+                    <h3>James Doe</h3>
+            </div>
+            <div class="right">
+                <div class="someuser">
+                    <div class ="userline">
+                        <h2>Neil M</h2>
+                        <h4 id ="likes-1">9 like(s)</h4>
+                        <button class="btn" onclick="increase(0)">Like</button>
+                    </div>
+                    <div class="fillertext">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="someuser">
+                    <div class ="userline">
+                        <h2>Nichole K</h2>
+                        <h4 id ="likes-2">12 like(s)</h4>
+                        <button class="btn" onclick="increase(1)">Like</button>
+                    </div>
+                    <div class="fillertext">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="someuser">
+                    <div class ="userline">
+                        <h2>Jim R</h2>
+                        <h4 id ="likes-3">9 like(s)</h4>
+                        <button class="btn" onclick="increase(2)">Like</button>
+                    </div>
+                    <div class="fillertext">
+                        <p>I cant stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
